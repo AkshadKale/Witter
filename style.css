@@ -1,0 +1,38 @@
+#body{
+    
+    background-image:url("https://images.unsplash.com/photo-1443397496996-b312c918b54e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80")
+}
+
+#input_username{
+    width:10cm;
+    border-radius:5px;
+    margin-left: 50px;
+    margin-top:10px;
+
+}
+
+.form-group{
+    
+    background-color: aliceblue;
+    border-radius: 25px;
+    border: black;
+   margin-top: 150px;
+   width:500px;
+   height: 250px;
+   
+   text-align: center;
+}
+
+#label_un{
+    margin-top: 45px;
+}
+
+
+#headings{
+    color:aqua;
+     margin-top: 2cm; 
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: burlywood;
+     width: 12cm;
+     border-radius: 1cm;
+}
