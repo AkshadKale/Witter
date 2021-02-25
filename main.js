@@ -1,6 +1,6 @@
 function addUser()
 {
     username = document.getElementById("input_username").value;
-    localStorage.setItem("UserName : ",username);
+    localStorage.setItem("username:",username);
     window.location="witter.html";
 }

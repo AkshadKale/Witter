@@ -2,14 +2,36 @@
     <head>
         <title>Witter</title>
     </head>
-    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>    
-    <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="witter.js"></script>
-    <body>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<script src="witter.js"></script>
+<link rel="stylesheet"  type="text/css"  href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+    <body id="witter_body">
+    <button id="log_out" class="btn btn-danger" onclick="log_out();">Logout</button>
+    <br>
+    <br>
+    <center>
+        
+        <h3 class="color_white" id="user_name"></h3>
+        <div id="div_">
+            <br>
+        <label>Enter Room Name:</label>
+        <br>
+        <br>
+        <input id="room_name_input" placeholder="Enter Room Name Here:"  type="text" class="form-control">
+        <br>
+        <button onclick="add_room();"  id="button_add_room" class="btn btn-primary" > Add Room</button>
+        </div>
+        <div id="room_name_div">
+
+        </div>
+    </center>
     </body>
 </html>

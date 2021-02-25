@@ -18,7 +18,7 @@
     border: black;
    margin-top: 150px;
    width:500px;
-   height: 250px;
+   height: 200px;
    
    text-align: center;
 }
@@ -35,4 +35,24 @@
      background-color: burlywood;
      width: 12cm;
      border-radius: 1cm;
+}
+
+
+#log_out{
+    float : right;
+    margin-top: 0.4cm;
+    margin-right:0.4cm;
+    
+}
+
+#witter_body{
+    background: linear-gradient(#50a832 0%, #a2a832 100%);
+}
+
+#room_name_input{
+    width:50%;
+}
+
+#div_{
+    margin-top: 2cm;
 }
