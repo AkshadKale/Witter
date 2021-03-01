@@ -56,3 +56,17 @@
 #div_{
     margin-top: 2cm;
 }
+
+#msg {
+  width : 20cm;
+  height : 0.8cm;
+}
+
+#logout{
+    float: right;
+    margin-top: 2px;
+}
+
+#witter_page_body{
+    background-color:skyblue ;
+}

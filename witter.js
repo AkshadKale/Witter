@@ -1,9 +1,4 @@
 
-function  log_out()
-{
-    window.location.replace("index.html");
-}
- 
 var firebaseConfig = {
   apiKey: "AIzaSyATd_b6hACCfgn_2ZzIP6K3wiw7DkKo5YA",
   authDomain: "project-93-1cebb.firebaseapp.com",
@@ -41,5 +36,11 @@ getData();
 function redirectToRoomName(name)
 {
       localStorage.setItem("room_name" , name);
-      window.location = "kwitter_page.html";
+      window.location = "witter_page.html";
+}
+
+function log_out(){
+  localStorage.removeItem("room_name");
+  localStorage.removeItem("username:");
+  window.location = "index.html";
 }
